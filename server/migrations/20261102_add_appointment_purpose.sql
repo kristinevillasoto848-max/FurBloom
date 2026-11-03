@@ -1,0 +1,2 @@
+ALTER TABLE appointments
+  ADD COLUMN purpose VARCHAR(160) NOT NULL DEFAULT '';
